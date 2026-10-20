@@ -33,6 +33,12 @@ Classes are blueprints for architecture, and the Component is the building mater
 ### Activity 3
 1. The balls get extremely bright, once all the steps have been completed, because of the ColorMultiplier. The ballRenderer is being multiplied by the GetColorMultiplier and then applied, which means the color values get higher as the ball keeps bouncing. This happens with the code in Step 8, which makes the change happen if it happens at a certain speed. If it crosses this speed threshold, it multiplies by 1.5.
 
+### W4
+Table 6
+
+1. We added the Capsule Collider to the Cat parent, and set the Direction to the Z-axis. This made it so the collider could be modified to make a horizontal capsule, and not a sphere or a vertical capsule. This way, the cat's collisions also do not touch the floor and make it float. We changed the X and Z axes' rotation so the cat didn't flip around as it hit the ball.
+2. We decided that, in order to make the cat hit the ball, the ball to be able to hit the goalpost but still pass through it to score a goal, and bounce off the wall, the Cat and SoccerBall needed a Rigidbody to be able to collide. The goalpost needed to have "Is Trigger" checked in order to score points once the Ball collided with it.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

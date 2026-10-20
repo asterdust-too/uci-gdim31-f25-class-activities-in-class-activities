@@ -3,7 +3,7 @@
 ### W1
 Hello World!
 ### Activity 1: Meet your classmates
-1. My classmates are Judas, Caedyn, Gregory, and Breona. My LA is Sahasra.
+1. My classmates are Judas, Caedyn, Gregory, and Breonna. My LA is Sahasra.
 2. Our table's commonality is that we all have immigrant parents
 ### Activity 2: Unity Basics
 1. Used Unity's Hierarchy, Project, and Game panels to move a cat to another spawnpoint, add a Player component, change the walking and turn speeds, and submit to itch.io.

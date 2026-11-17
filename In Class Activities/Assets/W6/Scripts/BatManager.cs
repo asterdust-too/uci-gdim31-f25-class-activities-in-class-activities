@@ -12,7 +12,7 @@ public class BatManager : MonoBehaviour
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
-    [SerializeField] private BatW6[] _bats = new BatW6[10]
+    //[SerializeField] private BatW6[] _bats = new BatW6[10];
     // STEP 1 -----------------------------------------------------------------
 
     // STEP 3 -----------------------------------------------------------------
@@ -76,8 +76,8 @@ public class BatManager : MonoBehaviour
     }
 
     // ------------------------------------------------------------------------
-    private void CreateReactions(BatW6 bat)
-    {
+   // private void CreateReactions(BatW6 bat)
+  //  {
         // STEP 5 -------------------------------------------------------------
         // The Random.Range() method can be used to give us a random number
         //      between two values.
@@ -100,8 +100,8 @@ public class BatManager : MonoBehaviour
     // This method creates the Text GameObject at the location & with the 
     //      message specified by the parameters.
     // It also resets the _newTextTimers entry for that bat to 0.
-    private void SpawnReactionUI(BatW6 bat, string message)
-    {
+    //private void SpawnReactionUI(BatW6 bat, string message)
+  //  {
         // STEP 8 -------------------------------------------------------------
         // We can create multi-line comments with the /* and */ symbol.
         // /* starts the comments, and */ ends it.
@@ -120,5 +120,5 @@ public class BatManager : MonoBehaviour
         */
 
         // STEP 8 -------------------------------------------------------------
-    }
-}
+ //   }
+//}

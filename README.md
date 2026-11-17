@@ -50,6 +50,9 @@ We ended up not needing movement speed or Update to keep track of the deer movin
 I was in charge of Unity Code.
 https://docs.google.com/document/d/1kR28s3UFUojYeTBAymLJ1hQA6LlfCwT3vaz3uHdMohE/edit?tab=t.0
 
+### W8
+The thing wrong in step 2 was the transform.position, which deals with world rotation instead of local rotation, which made the muskrat move in the same direction as before just at whatever angle the character is moved to, so it moves diagonally. To fix this, we changed it to transform.Translate, which deals with local rotation. This way, the muskrat moves across the entire ground plane.
+
 ### Notes
 Likely going to need Start or Update. Defintelty a speed variable, and a way to find the position of the bats.
 ### Plan

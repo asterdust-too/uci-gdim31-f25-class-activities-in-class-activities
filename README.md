@@ -58,6 +58,9 @@ Likely going to need Start or Update. Defintelty a speed variable, and a way to 
 ### Plan
 For our member variables we made a speed variable and positions for the bat and the player. The methods needed are Update, GetComponent, and two to start and end the chasing sequence. These methods should tell the bat when to start chasing, when to stop chasing, to get the proximity of the player to know when to chase, and initiate the action of chasing.
 
+### W9
+I drew my plan on paper, so there's not an actual link that I can send to be able to view it. I did decide to go with the 2D final, and I worked on setting up the beginning of a tilemap. I have the basic structure, with a border and an inside. I also have created several different Tile Palettes so I can use different sprites and art assets to make the scene my own.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
